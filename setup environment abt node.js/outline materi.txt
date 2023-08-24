@@ -1,0 +1,36 @@
+fitur fitur penting dari node.js, kurang lebih konsep yang umum dipakai:
+1. Asynchronous & Event-driven
+    -> node.js tidak memblokir proses lain sembari menunggu satu proses selesai
+2. Very fast
+3. Single threaded but highly scalable
+    -> Mekanisme ini membantu server untuk
+    merespon secara asynchronous dan menjadikan server lebih scalable
+    dibandingkan server tradisional yang menggunakan banyak thread untuk menangani permintaan.
+
+
+! Pada materi selanjutnya, refer ke folder CoffeeMachine untuk melanjutkan prosedur materi
+Pembuatan package.json terdapat di folder tersebut, membahas bahwa pembuatan .json disarankan untuk menggunakan
+bantuan npm oleh node.js
+(Jangan lupa arahkan ke folder projek tujuan sebelum melakukan npm init)
+
+
+//npm run <nama script>
+
+Object scripts merupakan objek yang mengandung kumpulan script di dalamnya. Script tersebut dapat dijalankan kapan saja pada proyek kita.
+
+nama script ini tergantung nama script yang terdapat di dalam objeknya 'scripts', misalnya ada objek bernama 'test'
+maka sintaksnya npm run test, dan tergantung dari isi objek tersebut perintahnya apa
+bisa juga kita menambahkan perintah menjalankan dari file index.js, dengan cara membuat objek baru dengan nama apapun,
+kemudian isi objeknya dengan perintah "node index.js"
+
+
+Rangkuman materi setup environment:
+Pada modul dicoding Anda telah menyiapkan tools yang dibutuhkan untuk mengembangkan aplikasi JavaScript. Dengan ini Anda dapat mulai membuat dan menjalankan aplikasi pada perangkat Anda sendiri tanpa tanpa tergantung platform seperti Dicoding atau lainnya.
+
+Pada modul ini juga Anda telah mempelajari beberapa hal, seperti:
+
+Perbedaan runtime browser dan node
+Instalasi text editor
+Instalasi Node
+Membuat dan menjalankan project Node.js
+

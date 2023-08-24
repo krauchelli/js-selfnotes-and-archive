@@ -1,0 +1,11 @@
+rangkuman singkat dalam poin materi export dan import
+1. buat satu file untuk export, misal di sini nama file nya state.js
+2. setelah membuat variabel kode, di baris bawah lakukan 'module.exports = <nama variabel>'
+    variabel ini akan diexport sebagai module yang nantinya bisa diimport
+3. di file yang ingin melakukan import, buatlah satu variabel dengan contoh sbg berikut:
+    namaVariabel = require('./"nama file export.js" ')
+
+== Export beberapa nilai
+jika ingin export variabel lebih dari satu, maka gunakan object literal atau simbol
+penggunaan objek {}
+module.exports = {coffeeStock, isCoffeeMachineReady};

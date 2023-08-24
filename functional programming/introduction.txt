@@ -1,0 +1,21 @@
+pendekatan functional programming ini tidak jauh berasal dari object composition dimana kita bisa membuat fungsi umum yang bisa dipake terus menerus tanpa adanya pewarisan
+
+-> FP atau functional programming ditulis dengan gaya deklaratif, dibanding imperativ
+    -> deklaratif = what to solve
+    -> imperatif = how to solve
+
+contoh baris kode imperatif:
+    const newNamesWithExcMark = [];
+
+    for(let i = 0; i < names.length; i++) {
+      newNamesWithExcMark.push(`${names[i]}!`);
+    }
+
+
+contoh baris kode deklaratif
+    const newNamesWithExcMark = names.map((name) => `${name}!`);
+
+
+
+bisa dilihat dari dua perbandingan di atas, baris kode deklaratif terlihat lebih pendek karena tidak menggunakan gaya "how to solve" karena
+langsung menyebutkan apa yang ingin diselesaikan

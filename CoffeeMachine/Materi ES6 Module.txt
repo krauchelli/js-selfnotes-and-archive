@@ -1,0 +1,19 @@
+metode untuk export dan import menggunakan modul ES6
+export default <nama variabel> ;
+import <nama variabel> from "path";
+
+catt: untuk import, nama variabel pada import bisa kita deklarasi dengan
+nama apapun sebagaimana kita hanya mendeklarasikan.
+Hal ini aman karena export default dapat dipastikan hanya satu nilai yang
+diekspor pada satu file js.
+
+**Pastikan untuk membuat package.json terlebih dahulu di npm karena modul ES6
+TIDAK SECARA DEFAULT NYALA
+how do we do that?
+pada package.json, di bawah properti "main", tambahkan properti baru
+dengan nama "type" dengan nilai "module"
+sehingga: "type": "module"
+
+Selebihnya sama jika ingin export & import variabel yang lebih dari satu
+* Kalau ingin menggunakan nama variabel yang berbeda, pakai "as"
+import teaFlavor as teaDesc ....
