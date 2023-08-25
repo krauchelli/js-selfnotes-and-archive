@@ -36,3 +36,19 @@ try {
     console.log(`Message: ${alasanError.message}`);
     console.log(`Debug atau Stack: ${alasanError.stack}`);
 }
+
+
+//satu lagi adalah penggunaan try-catch-finally
+//blok finally akan tetap dijalankan tanpa peduli apapun hasil yang terjadi pada blok try-catch
+console.log("\n");
+console.log("Menggunakan try-catch-finally");
+
+try {
+    console.log("blok awal untuk final");
+    pelaksanaanErrorEak;
+    console.log("blok akhir");
+} catch (errorTry) {
+    console.log("Error has occured! Please check your try block again!");
+} finally {
+    console.log("This block will be shown no matter what, so good luck");
+}
