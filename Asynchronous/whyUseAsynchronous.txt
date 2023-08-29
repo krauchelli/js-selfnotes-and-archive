@@ -1,0 +1,2 @@
+sinkronus => saat ingin menjalankan proses selanjutnya harus menunggu proses sebelumnya selesai
+asinkronus => memungkinkan suatu proses berjalan sembari menunggu proses lainnya selesai.
